@@ -115,6 +115,10 @@ header  section{
   margin-bottom: 40px;
 }
 
+#event h3 {
+	text-align: center;
+}
+
 a.button {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;                     
