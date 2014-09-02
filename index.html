@@ -1,105 +1,123 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>PDX DIY</title>
-  </head>
+<html lang="en">
+	<head>
+		<script>(function(w){var dpr=((w.devicePixelRatio===undefined)?1:w.devicePixelRatio);if(!!w.navigator.standalone){var r=new XMLHttpRequest();r.open('GET','/retinaimages.php?devicePixelRatio='+dpr,false);r.send()}else{document.cookie='devicePixelRatio='+dpr+'; path=/'}})(window)</script>
+		<noscript><style id="devicePixelRatio" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">html{background-image:url("/retinaimages.php?devicePixelRatio=2")}</style></noscript>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+		<meta charset="UTF-8">
+		<title>PDX DIY</title>
 
-        <header>
-          <section><img src="https://si0.twimg.com/profile_images/3643172964/03e7dccd1d72327fd00f2fe12dab9378.png" id="logo"></section>
-        </header>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <section id="event">
-          <h3>July - Learn About the Plant Kingdom and Earn a Botanist Patch</h3>
-          <p>
-          PDX DIY is taking a field trip out to Oaks Bottom Wildlife Reserve to knock out some Botanist challenges. PDX DIY'ers will be identifiying plants, making botanist kits, and more botanist things together. Come join us! Hope to see you DIY'ers out there for some outdoor fun!
-          </p>
-          <h4>Details:</h4>
-          <p>
-          We will be completing various challenges outlined here - <a href="https://diy.org/skills/botanist">https://diy.org/skills/botanist</a>. Make a botanist kit, identify plants in the wild, and more. Complete all 3 challenges and you'll get a botanist patch!  
-          </p>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,800' rel='stylesheet' type='text/css'>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap.no-responsive.no-icons.min.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
 
-          <p><strong>Time:</strong> Saturday, July 27nd 10am-12pm</p>
+		<!--[if lt IE 9]>
+			<script src="/js/lib/html5shiv.js"></script>
+		<![endif]-->
+	</head>
 
-          <p><strong>Cost:</strong> FREE</p>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="span8 offset2">A NEW PDX DIY IS COMING...</h1>
 
-          <p><strong>Recommended Age:</strong> 7-13</p>
-          <p>
-          <strong>How to sign up:</strong> To sign up, first create an account on <a href="http://.diy.org">DIY.org</a>(if you haven't done this already). Then go here to sign up for the event here - <a href="http://pdxdiy-0613.eventbrite.com">http://pdxdiy-0613.eventbrite.com</a>. Note, get a ticket for each club member (i.e. two kids means two tickets).</p>
+				<div id="calendar"></div>
+				<div id="clock">
+					<span id="hours"></span>
+					<span id="separator">:</span>
+					<span id="minutes"></span>
+				</div>
+				<div id="astroman"></div>
+				<div id="astromanEyes"></div>
 
-          <p>Questions? Contact <a mailto="ben@pdxdiy.org">ben@pdxdiy.org</a>
-          </p>
-          </section>
+				<div id="bookAlpha">Summerologist</div>
+				<div id="bookBeta">Chiller</div>
+				<div id="bookGamma">Club Member</div>
+
+				<div id="rocket"></div>
+				<div id="rocketEyes"></div>
+				<div id="stars"></div>
+
+				<div id="lightSwitch"></div>
+				<div id="lightSwitchDummy"></div>
+
+				<div id="table"></div>
+			</div>
+
+			<div id="overlay"></div>
+		</header>
+
+		<section id="subscribe">
+			<div class="container">
+				<div class="span8 offset2">
+					<h2>Be the first to know when the NEW PDX DIY is here</h2>
+         
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form id="mc-embedded-subscribe-form" action="https://diy.us7.list-manage.com/subscribe/post?u=1a8248066b900edec6e22c6c3&amp;id=eca7c7e363" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate class="validate">
+              <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email" title="Email" value="" required>
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_1a8248066b900edec6e22c6c3_eca7c7e363" tabindex="-1" value=""></div>
+              <div class="clear">
+              <div id="mce-responses">
+                <div id="mce-error-response" class="response"></div>
+                <div id="mce-success-response" class="response"></div>
+              </div>
+              <input type="submit" value="LET ME KNOW!" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </form>
+
+          <p style="margin: 30px;">We <i class="icon-heart"></i> your privacy. We don't share your information with anyone. </br>
+            If you're getting an email, it is from a us. We promise.</p>         
           
-          <hr>
-          
-          <section>
-          <h3>About PDX DIY</h3>
-          <h4>
-<a name="pdx-diy-is" class="anchor" href="#pdx-diy-is"><span class="octicon octicon-link"></span></a>PDX DIY is...</h4>
+          </div>
+          <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!--End mc_embed_signup-->
+				</div>
+			</div>
+		</section>
 
-<p>PDX DIY is part of <a href="https://maps.google.com/maps/ms?msid=203379347826506982811.0004de47c074c006a4eab&amp;msa=0&amp;ie=UTF8&amp;ll=24.396606,-0.993731&amp;spn=61.243619,244.081567&amp;t=m&amp;source=embed">a global community of DIY clubs</a>. Also, <a href="https://diy.org/">DIY is a community</a> where tens of thousands of kids get to share what they do and learn skills.</p>
+		<section id="contact">
+			<div class="container">
+				<div class="span8 offset2">
+					<h2>What is PDX DIY?</h2>
 
-<h4>
-<a name="what-we-do" class="anchor" href="#what-we-do"><span class="octicon octicon-link"></span></a>What we do</h4>
+					<p>Built on the foundation of <span><a href="http://DIY.org">DIY</a>, PDX DIY is a youth club fostering a culture of being creative and making things.</p>
 
-<p>PDX DIY club is a group that works together to practice skills (like <a href="https://diy.org/skills/bikemechanic">Bike Mechanic</a>), do creative projects (like <a href="https://diy.org/skills/salvager/challenges/64/make-a-game-from-scrap">make a game from scrap</a>), and take epic adventures together (like exploring the <a href="http://en.wikipedia.org/wiki/Japanese_garden">Japanese Gardens</a> while checking off <a href="https://diy.org/skills/botanist">botanist skills</a>). We get together periodially and are just a bunch of friends hacking on random projects.</p>
+				</div>
+			</div>
+		</section>
 
-<h4>
-<a name="how-to-join" class="anchor" href="#how-to-join"><span class="octicon octicon-link"></span></a>How to join</h4>
+		<section id="social">
+			<div class="container">
+				<div class="span8 offset2">
+					<a href="https://twitter.com/pdxdiy" data-toggle="tooltip" title="" class="twitter" data-original-title="Follow us on Twitter"><i class="icon-twitter"></i></a>
+					<a href="https://www.facebook.com/pdxdiy" data-toggle="tooltip" title="" class="facebook" data-original-title="Like us on Facebook"><i class="icon-facebook"></i></a>
+				</div>
+			</div>
+		</section>
 
-<p>
-  <h4>Step 1:</h4> Sign up at <a href="http://diy.org">http://diy.org</a>.
-  <h4>Step 2:</h4> Email your diy.org nickname to <a href="mailto:ben@pdxdiy.org">ben@pdxdiy.org</a>
-</p>
+		<footer>
+			<div class="container">
+				<div class="span8 offset2">
+					<a class="rocket" href="#"><i class="icon-rocket"></i></a>
+					<p>PDX DIY</p>
+				</div>
+			</div>
+		</footer>
 
-<h4>
-<a name="volunteer" class="anchor" href="#volunteer"><span class="octicon octicon-link"></span></a>Volunteer</h4>
-
-<p>We're currently seeking volunteers to help with our outreach efforts. Increasingly, we are involved in Maker Faires, museum programs, and other exciting events around the Portland Area. We're looking for folks interested in education and capable at building things to help us as we develop this program. Some volunteer tasks would include: sourcing materials, hands-on support at workshops, building life-size versions of <a href="https://diy.org/rabinovitch/001enk">this</a> - just to name a few. If you're interested in helping out with any of this, please <a href="http://eepurl.com/z4kfj">fill out this form</a>.</p>
-        </div>
-        </section>
-        
-        <hr>
-        
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/pdxdiy" id="view-on-github" class="button"><i class="icon-github"></i> GitHub</a>
-          <a href="https://facebook.com/pdxdiy" id="view-on-facebook" class="button"><i class="icon-facebook"></i> Facebook</a>
-          <a href="https://twitter.com/pdxdiy" id="view-on-twitter" class="button"><i class="icon-twitter"></i> Twitter</a>
-        </section>
-
-        <hr>
-        
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-39947014-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-      </div>
-    </div>
-  </body>
+		<div id="modalOverlay" class="modal-overlay hide"></div>
+		<div id="modal" class="modal hide">
+			<h1 id="modalTitle">Thanks!</h1>
+			<p id="modalContent">We'll be in touch real soon!</p>
+			<p id="modalClose" class="modal-close">(Close this thing)</p>
+		</div>
+		
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/bootstrap.min.js"></script>
+		<script src="js/lib/placeholders.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
