@@ -4,7 +4,7 @@
 
 	/* Modify these values to suit your needs... */
 	var config = {
-		countdownDate: '09/15/2014 12:00 AM',
+		countdownDate: '09/17/2014 12:00 AM',
 		socialTooltips: true
 	};
 
