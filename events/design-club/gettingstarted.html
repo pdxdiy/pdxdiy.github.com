@@ -63,7 +63,7 @@
 </nav>
 <!-- End Navigation Section -->
 
-<!-- Club Benefits Section -->
+
 <section id="project">
 
     <div class="container">
@@ -79,153 +79,234 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Step 0: Get a DIY Account</h1>
-                <p>We will use DIY.org for capturing and documenting progress in your portfolio. If you don't already have an account, sign up for one. Parents - get involved too and join as a parent on DIY.
-                </p>
-                <p><strong>*NOTE:</strong> I am working through the details of payment with DIY for the Extra Awesome Memberships. You will hear from me by <stong>October 1st</stong> about more how to get this.</p>
-                <a href="https://diy.org/join" class="btn btn-2" target="_blank">Join DIY.org</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Step 2: Tell us about yourself</h1>
-                <p>This is general contact info, your diy nickname, and your design interests.</p>
-                <a href="http://eepurl.com/4nJ1r" class="btn btn-2" target="_blank">Tell us about yourself</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Step 3: Check out the Tool Lending Library</h1>
-                <p>We have a bunch of resources that you can borrow. Take a look and see what kind of resources we have.</p>
-                <a href="../../lending-library/index.html" class="btn btn-2" target="_blank">Check out Tool Lending Library</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Step 4: Add something to your Portfolio!</h1>
-                <p>Get some portfolio practice by uploading a pic or video to your DIY portfolio. Extra points if it is related to
-                    design.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Step 5: Assemble your club toolbox</h1>
-                <p>There are some things that you'll want to bring to each club meeting. Here is a checklist of them:</p>
-                <ul>
-                    <li>
-                        Something to take pictures with. An iPad, iPod, or a camera works.
-                    </li>
-                    <li>
-                        Something to doodle with. A journal or notepad. I love spiral bound, but that is up to you.
-                    </li>
-                    <li>
-                        Designer Inspiration. This can come in a number of forms. Be it an awesome graphic designer magazine, a list of game designs methods, or just a favorite design pic. Bring something to share
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--<div class="row">-->
-            <!--<div class="col-sm- text-center">-->
-                <!--<img src="img/practice.png" class="main-image" alt="">-->
-                <!--<h3>Practice</h3>-->
-                <!--<p>Create design projects of your own. Work or different disciplines of design or focus on one that suites your design fancy.</p>-->
-            <!--</div>-->
-            <!--<div class="col-sm-2 text-center">-->
-                <!--<img src="img/toolup.png" class="main-image" alt="">-->
-                <!--<h3>Tool Up</h3>-->
-                <!--<p>With PDX DIY's Tool Lending Library, get access tools like silk screen kits, a sewing machine, or a 3d printer.</p>-->
-            <!--</div>-->
-            <!--<div class="col-sm-2 text-center">-->
-                <!--<img src="img/beawesome.png" class="main-image" alt="">-->
-                <!--<h3>Be Awesome</h3>-->
-                <!--<p>Get a <a href="https://diy.org/membership">DIY.org Extra Awesome Membership</a>, to document and start a portfolio. Plus get a bunch of additional benefits, like free patches.</p>-->
-            <!--</div>-->
 
-            <!--<div class="col-sm-8 col-sm-offset-2 text-center">-->
-                <!--<h2>Ready to join?</h2>-->
-                <!--<p><a href="http://www.eventbrite.com/e/pdx-diy-design-club-tickets-13261087269" class="btn btn-2" target="_blank">Register</a></p>-->
-            <!--</div>-->
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="steps activestep" onclick="javascript: resetActive(event, 'step-1');">
+                        <span class="fa fa-camera-retro"></span>
+                        <p>1. Setup Your Portfolio</p>
+                    </div>
+                    <div class="steps" onclick="javascript: resetActive(event, 'step-2');">
+                        <span class="fa fa-folder-open-o"></span>
+                        <p>2. Tell us about yourself</p>
+                    </div>
+                    <div class="steps" onclick="javascript: resetActive(event, 'step-3');">
+                        <span class="fa fa-wrench"></span>
+                        <p>3. Checkout the Tool Lending Library</p>
+                    </div>
+                    <div class="steps" onclick="javascript: resetActive(event, 'step-4');">
+                        <span class="fa fa-briefcase"></span>
+                        <p>4. Assemble your Toolkit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step activeStepInfo" id="step-1">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>STEP 1: Setup you Portfolio</h1>
+                        <p>Portfolios are important to all designers. Get yours started.</p>
+                        <div>
+                            <p style="text-align: left;">We will use DIY.org for our portfolios. If you don't already have an account, sign up for one. <strong>Parents</strong> - get involved too and join as a parent on DIY.</p>
+                            <p style="text-align: left;"><strong>Note:</strong> We will be setting up the Extra Awesome accounts on the First night, so do worry about signing up for the the extra awesome account.</p>
+                                <a href="https://diy.org/join" class="btn btn-2" style="text-emphasis: center;" target="_blank">Join DIY.org</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step hiddenStepInfo" id="step-2">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>STEP 2: Tell us about yourself</h1>
+                        <p class="underline">We need to know more about you</p>
+                        <p style="text-align: left;"> This information is for emergencies and to help us make design club better. <strong>Your information will never be sold</strong>. Nor will be shared without your permission.</p>
+                        <a href="http://eepurl.com/4nJ1r" class="btn btn-2" target="_blank">Club Member Information Form</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step hiddenStepInfo" id="step-3">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>Step 3: Check out the Tool Lending Library</h1>
+                        <p>We have a bunch of resources that you can borrow. Take a look and see what kind of resources we have.</p>
+                        <a href="../../lending-library/index.html" class="btn btn-2" target="_blank">Check out Tool Lending Library</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step hiddenStepInfo" id="step-4">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>Step 4: Assemble Your Toolkit</h1>
+                        <p>There are some things that you'll want to bring to each club meeting. Here is a checklist of them:</p>
+                        <ul style="text-align: left; list-style-type:none;">
+                            <li style="margin-top: 30px">
+                                <span style="font-size: 30px" class="fa fa-tablet"></span> <span style="font-size: 30px" class="fa fa-mobile-phone"></span> <span style="font-size: 30px" class="fa fa-camera"></span><br>Something to take pictures with. An iPad, iPod, or a simple camera works.
+                            </li>
+                            <li style="margin-top: 30px">
+                                <span style="font-size: 30px" class="fa fa-pencil"></span> <span style="font-size: 30px" class="fa fa-book"></span><br>Something to doodle with. A journal or notepad. I love spiral bound, but that is up to you.
+                            </li>
+                            <li style="margin-top: 30px">
+                                <span style="font-size: 30px" class="fa fa-heart-o"></span> <span style="font-size: 30px" class="fa fa-lightbulb-o"></span><br>Designer Inspiration. This can come in a number of forms. Be it an awesome graphic designer magazine, a list of game designs methods, or just a favorite design pic. Have something that inspires you.
+                            </li>
+                            <li style="margin-top: 30px; color:#808080" >
+                                <span style="font-size: 30px" class="fa fa-laptop"></span><br>Laptops are great to have, but are totally optional.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step hiddenStepInfo" id="step-5">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>STEP 5</h1>
+                        <h3 class="underline">Instructions</h3>
+                        Upload the application.
+                        This may require a confirmation email.
+                    </div>
+                </div>
+            </div>
+            <div class="row setup-content step hiddenStepInfo" id="step-6">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h1>STEP 6</h1>
+                        <h3 class="underline">Instructions</h3>
+                        Send us feedback on the overall process.
+                        This step is not obligatory.
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!--</div>-->
+        <style>
+            .hiddenStepInfo {
+                display: none;
+            }
 
+            .activeStepInfo {
+                display: block !important;
+            }
+
+            .underline {
+                text-decoration: underline;
+            }
+
+            .step {
+                margin-top: 27px;
+            }
+
+            .progress {
+                position: relative;
+                height: 25px;
+            }
+
+            .progress > .progress-type {
+                position: absolute;
+                left: 0px;
+                font-weight: 800;
+                padding: 3px 30px 2px 10px;
+                color: rgb(255, 255, 255);
+                background-color: rgba(25, 25, 25, 0.2);
+            }
+
+            .progress > .progress-completed {
+                position: absolute;
+                right: 0px;
+                font-weight: 800;
+                padding: 3px 10px 2px;
+            }
+
+            .step {
+                text-align: center;
+            }
+
+            .steps {
+                text-align: center;
+                width: 25%;
+                min-height: 150px;
+                background-color: #fff;
+                border: 1px solid #C0C0C0;
+                border-right: none;
+                float: left;
+                padding: 5px;
+            }
+
+            .steps:last-child {
+                border: 1px solid #C0C0C0;
+            }
+
+            .steps:first-child {
+                border-radius: 5px 0 0 5px;
+            }
+
+            .steps:last-child {
+                border-radius: 0 5px 5px 0;
+            }
+
+            .steps:hover {
+                color: #3dc0f1;
+                cursor: pointer;
+            }
+
+            .activestep {
+                color: #333333;
+                height: 100px;
+                background-color: #f5f5f5;
+                vertical-align: central;
+            }
+
+            .steps .fa {
+                padding-top: 15px;
+                font-size: 40px;
+            }
+
+            .well{
+                min-height: 400px;
+            }
+            /* .squaredFour */
+            .squaredFour {
+                width: 20px;
+                position: relative;
+                margin: 20px auto;
+            }
+        </style>
+
+        <script type="text/javascript">
+            function resetActive(event, step) {
+                $("div").each(function () {
+                    if ($(this).hasClass("activestep")) {
+                        $(this).removeClass("activestep");
+                    }
+                });
+
+                if (event.target.className == "steps") {
+                    $(event.target).addClass("activestep");
+                }
+                else {
+                    $(event.target.parentNode).addClass("activestep");
+                }
+
+                hideSteps();
+                showCurrentStepInfo(step);
+            }
+
+            function hideSteps() {
+                $("div").each(function () {
+                    if ($(this).hasClass("activeStepInfo")) {
+                        $(this).removeClass("activeStepInfo");
+                        $(this).addClass("hiddenStepInfo");
+                    }
+                });
+            }
+
+            function showCurrentStepInfo(step) {
+                var id = "#" + step;
+                $(id).addClass("activeStepInfo");
+            }
+        </script>
     </div>
 
 </section>
 <!-- End Club Benefits Section -->
-
-<section id="volunteers">
-
-    <div class="container">
-
-        <div class="row text-center">
-            <div class="col-sm-12">
-                <h1 class="heading-large section-color-1">Questions and Answers</h1>
-            </div>
-        </div>
-
-        <div class="row text-center" style="margin-bottom: 75px">
-            <div class="col-sm-6 col-lg-3">
-                <div class="team-member" style="height: 200px;">
-                    <div class="header">
-                        <span class="name">When do you meet?</span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <p>Starting <strong>October 9th</strong>, we'll be meeting every <strong>2nd and 4th Thursday from 6-8pm</strong>. We will just be doing this for the fall season, so we'll have our last meetup on <strong>December 11th.</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="team-member" style="height: 200px;">
-                    <div class="header">
-                        <span class="name">What is the ideal age?</span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <p>Ages 11-16 are ideal for design club members. If you are not in this age range, it is still possible to join design club, but we want to <a href="mailto:ben@pdxdiy.org">talk to you first.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="team-member" style="height: 200px;">
-                    <div class="header">
-                        <span class="name">Will you provide project materials?</span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <p>We will have some materials available, but you are responsible for the materials of your projects. Besides it is really fun to be thrifty and find deals on really cool stuff!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="team-member" style="height: 200px;">
-                    <div class="header">
-                        <span class="name">How long does my DIY Extra Awesome membership last?</span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <p>
-                                Your extra awesome membership will last through the end of 2014. Did you see that you get unlimited <a href="https://diy.org/membership">free embroidered patches</a>?!?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 
 <!-- Footer Section -->
 <footer>
