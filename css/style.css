@@ -637,3 +637,12 @@ footer a {
   }
 }
 /* END MEDIA QUERIES */
+
+#newsletter {
+    background: #fff;
+}
+
+#newsletter h1 {
+    color: #000;
+}
+
